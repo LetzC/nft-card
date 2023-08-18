@@ -1,0 +1,216 @@
+:root {
+  --main-bg: hsl(217, 54%, 11%);
+  --card-bg: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --white: #dadada;
+}
+
+* {
+  display: flexbox;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font: inherit;
+  overflow: hidden;
+  font-family: "Outfit", sans-serif;
+}
+
+html {
+  /* a cada 1rem será considera 10px */
+  font-size: 62.5%;
+}
+
+div {
+  display: flex;
+  position: inline-block;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+body {
+  background-color: var(--main-bg);
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+section {
+  position: absolute;
+  background-color: var(--card-bg);
+  border-radius: 5%;
+  padding: 2.6rem;
+  width: 36rem;
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0rem 2rem 5rem -1rem rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-weight: 600;
+  color: white;
+  font-size: 2.3rem;
+  height: 9%;
+  margin-top: 0;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: var(--soft-blue);
+}
+
+strong {
+  color: var(--white);
+}
+
+.info-create p {
+  margin-top: 3.4rem;
+  padding-bottom: 1rem;
+}
+
+.info-create img {
+  width: 100%;
+  max-width: 3.5rem;
+  margin-right: 1.6rem;
+
+  border: 0.2rem solid var(--white);
+  border-radius: 50%;
+
+  vertical-align: middle;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: var(--line);
+  margin: 1.5rem 0 0;
+}
+
+.information {
+  justify-content: space-between;
+  margin-top: 1.8rem;
+}
+
+.information img {
+  vertical-align: middle;
+  margin-right: 0.8rem;
+}
+
+.value p {
+  color: var(--cyan);
+  font-weight: 400;
+}
+
+.image {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+#equilibrium-img {
+  width: 100%;
+  height: 92%;
+  border-radius: 5%;
+  position: relative; /* Adiciona position relative */
+  z-index: 1; /* Define um z-index para o elemento */
+}
+
+.view {
+  position: absolute;
+  z-index: 2;
+  visibility: hidden;
+  background-color: hsl(178, 100%, 50%, 0.4);
+  padding: 35.8% 36%;
+  border-radius: 5%;
+}
+
+.image:hover img {
+  visibility: visible;
+  cursor: pointer;
+}
+
+strong:hover,
+.title:hover {
+  transition: all 0.3s;
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.attribution {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 3vh;
+  opacity: 25%;
+  overflow: hidden;
+}
+
+@media (min-width: 2560px) {
+  html {
+    font-size: 120%;
+  }
+  .information {
+    max-height: 3rem;
+  }
+  .information img {
+    width: 10%;
+    margin-right: 0.5rem;
+  }
+  .information #clock {
+    width: 17%;
+  }
+  .view {
+    padding: 38% 39.5%;
+  }
+}
+
+@media (max-width: 425px) {
+  section {
+    width: 80vw;
+    height: 64vh;
+  }
+  .title {
+    margin-top: 2rem;
+    height: 11%;
+    margin-bottom: 1rem;
+  }
+  .line {
+    margin-top: 1rem;
+  }
+  .info-create img {
+    width: 15%;
+    height: 120%;
+    border: 1px solid white;
+    margin-right: 2rem;
+  }
+  .info-create p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  html {
+    font-size: 60%;
+  }
+  .image {
+    max-height: 50%;
+  }
+  #equilibrium-img {
+    width: 100%;
+    height: 100%;
+  }
+  .view {
+    padding: 35% 34%;
+  }
+}
