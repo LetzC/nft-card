@@ -147,10 +147,17 @@ strong:hover,
 }
 
 .attribution {
+  font-size: 11px;
+  text-align: center;
+
   justify-content: center;
   position: relative;
   bottom: 3vh;
   opacity: 25%;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 @media (min-width: 2560px) {
