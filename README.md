@@ -11,14 +11,13 @@ Obrigado por conferir este desafio front-end.
 
 ## O desafio
 
-Escolhi utilizar o HTML e CSS pois queria treinar meus fundamentos e me desafiar com a responsividade.<br><br>
+Escolhi utilizar o HTML e CSS, pois queria treinar meus fundamentos e me desafiar com a responsividade.<br><br>
 Aprendi muito com esse projeto, principalmente:
-- ### Uso de medidas responsivas `rem, %` <br>
-Para facilitar a medida eu defini o html com `font-size: 62.5%` assim a cada 1rem será considera 10px. O que facilitou a responsivdade em telas 4k, aumentando a medida do html os elementos `rem`acompanharam.<br>
-- ### Alinhamento dos elementos <br>
-Aproveitei principalmente o uso de `flex,  align-items,  justify-content`<br>
-- ### Efeitos
-Esse foi um dos maiores desafios por conta do hover da imagem, busquei definir como o fundo no icone de olho, outras soluções que tentei foi, colorir a imagem, aplicar uma div com a opacidade menor. Optei pelo fundo no icone pois eu ajustaria um elemento só.
-Os outros efeitos de hover foram bem simples, adicionei uma leve transição para suavizar a passagem.
-- ### Responsividade
-Como o projeto já vinha sendo construído usado soluções responsivas foi necessário pequenos ajustes, fiz a responsivade com base nos breakpoints do navegador.
+- ### Uso de medidas responsivas rem e %:
+Para facilitar a medida, eu defini o HTML com `font-size: 62.5%`, assim a cada 1rem será considerado 10px. Isso facilitou a responsividade em telas 4k. Aumentando a medida do HTML, os elementos `rem` acompanharam.<br>
+- ### Alinhamento dos elementos:
+Aproveitei principalmente o uso de `flex`, `align-items` e `justify-content`.
+- ### Efeitos:
+Esse foi um dos maiores desafios, por conta do hover da imagem. Busquei definir o fundo no ícone de olho. Outras soluções que tentei foram: colorir a imagem, aplicar uma div com background e diminuir a opacidade. Optei pelo fundo no ícone, pois eu ajustaria um elemento só. Os outros efeitos de hover foram bem simples. Adicionei uma leve transição para suavizar a passagem.
+- ### Responsividade:
+Como o projeto já vinha sendo construído usando soluções responsivas, foi necessário fazer pequenos ajustes. Fiz a responsividade com base nos breakpoints do navegador.
