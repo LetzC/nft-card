@@ -147,13 +147,10 @@ strong:hover,
 }
 
 .attribution {
-  display: flex;
-  align-items: center;
   justify-content: center;
   position: relative;
   bottom: 3vh;
   opacity: 25%;
-  overflow: hidden;
 }
 
 @media (min-width: 2560px) {
