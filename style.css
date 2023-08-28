@@ -160,18 +160,14 @@ strong:hover,
   html {
     font-size: 120%;
   }
-  .information {
-    max-height: 3rem;
+  .clock {
+    min-width: 1.5rem;
   }
-  .information img {
-    width: 10%;
-    margin-right: 0.5rem;
-  }
-  .information #clock {
-    width: 17%;
+  .eth {
+    width: 1.2rem;
   }
   .view {
-    padding: 38% 39.5%;
+    padding: 39% 39.5%;
   }
 }
 
@@ -196,6 +192,9 @@ strong:hover,
   }
   .info-create p {
     font-size: 1.5rem;
+  }
+  .view {
+    padding: 33% 35.5%;
   }
 }
 
