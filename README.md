@@ -8,6 +8,8 @@ Obrigado por conferir este desafio front-end.
 
 **Para você visualizar a página basta clicar aqui!**
 
+- README in English [here](./README-template.md)!
+
 ## O desafio
 
 Escolhi utilizar o HTML e CSS, pois queria treinar meus fundamentos e me desafiar com a responsividade.<br><br>
