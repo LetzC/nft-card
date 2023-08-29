@@ -42,27 +42,14 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- ### Using rem and % responsive measures:
+   To make it easier to measure, I defined the HTML with `font-size: 62.5%`, so every 1rem will be considered 10px. This made it easier to be responsive on 4k screens. Increasing the measure of HTML, `rem` elements have followed suit.<br>
+- ### Alignment of elements:
+   I mostly enjoyed using `flex`, `align-items` and `justify-content`.
+- ### Effects:
+   This was one of the biggest challenges, due to the hover of the image. I tried to set the background to the eye icon. Other solutions I tried were: coloring the image, applying a div with a background and lowering the opacity. I opted for the background on the icon, as I would adjust a single element. The other hover effects were pretty straightforward. I added a slight transition to smooth the passage.
+- ### Responsiveness:
+   As the project was already being built using responsive solutions, it was necessary to make small adjustments. I made the responsiveness based on the browser breakpoints.
 
 ### Continued development
 
