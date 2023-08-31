@@ -6,7 +6,9 @@
 
 Obrigado por conferir este desafio front-end.
 
-**Para você visualizar a página basta clicar aqui!**
+**Para você visualizar a página basta [clicar aqui](https://letzc.github.io/nft-card/)!**
+
+- README in English [here](./README-template.md)!
 
 ## O desafio
 
