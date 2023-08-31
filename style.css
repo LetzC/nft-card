@@ -176,12 +176,7 @@ strong:hover,
 }
 
 @media (max-width: 425px) {
-  section {
-    width: 80vw;
-    height: 64vh;
-  }
   .title {
-    margin-top: 2rem;
     height: 11%;
     margin-bottom: 1rem;
   }
@@ -198,7 +193,7 @@ strong:hover,
     font-size: 1.5rem;
   }
   .view {
-    padding: 33% 35.5%;
+    padding: 36.5% 36.3%;
   }
 }
 
